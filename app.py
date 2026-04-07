@@ -2,7 +2,7 @@ import os
 import requests
 import streamlit as st
 from datetime import datetime
-from db_writer2 import advance_week, rollback_to_week, get_db_status
+from db_writer import advance_week, rollback_to_week, get_db_status
 from connection import query as db_query
 
 # ── PAGE CONFIG ───────────────────────────────────────────────────────────────
